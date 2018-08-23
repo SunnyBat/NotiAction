@@ -1,0 +1,9 @@
+Package: com.sunnybat.notiaction
+Name: NotiAction
+Depends: mobilesubstrate, libactivator
+Version: 1.5
+Architecture: iphoneos-arm
+Description: Adds Activator actions for receiving notifications
+Maintainer: Sunny Bat <Sunnybat@yahoo.com>
+Author: Sunny Bat
+Section: Addons (Activator)

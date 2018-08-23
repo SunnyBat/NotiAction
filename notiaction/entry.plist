@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = NotiAction;
+	cell = PSLinkCell;
+	detail = NotiActionListController;
+	icon = NotiAction.png;
+	isController = 1;
+	label = NotiAction;
+    };
+}

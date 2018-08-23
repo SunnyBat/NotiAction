@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>					<string>NotiAction</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>				<string>PSGroupCell</string>
+			<key>label</key>			<string>Main Settings</string>
+			<key>footerText</key>		<string>You must respring for any changes to take effect</string>
+		</dict>
+		<dict>
+			<key>cell</key>				<string>PSSwitchCell</string>
+			<key>default</key>			<false/>
+			<key>defaults</key>			<string>com.sunnybat.notiaction</string>
+			<key>key</key>				<string>enabled</string>
+			<key>label</key>			<string>Enable NotiAction</string>
+		</dict>
+		<dict>
+			<key>cell</key>				<string>PSSwitchCell</string>
+			<key>default</key>			<false/>
+			<key>defaults</key>			<string>com.sunnybat.notiaction</string>
+			<key>key</key>				<string>casesensitive</string>
+			<key>label</key>			<string>Case Sensitive</string>
+		</dict>
+		<dict>
+			<key>cell</key>				<string>PSSwitchCell</string>
+			<key>default</key>			<false/>
+			<key>defaults</key>			<string>com.sunnybat.notiaction</string>
+			<key>key</key>				<string>suppressnotifications</string>
+			<key>label</key>			<string>Suppress Notifications Found</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>				<string>PSGroupCell</string>
+			<key>label</key>			<string>Notification Filters</string>
+			<key>footerText</key> 		<string>You can use %% as a wildcard character. Note that wildcards are any amount of text. Also note that the notification must match the entire filter.</string>
+		</dict>
+		<dict>
+			<key>cell</key>				<string>PSEditTextCell</string>
+			<key>default</key>			<string></string>
+			<key>defaults</key>			<string>com.sunnybat.notiaction</string>
+			<key>key</key>				<string>notiString1</string>
+			<key>label</key>			<string>(1) Check for</string>
+		</dict>
+		<dict>
+			<key>cell</key>				<string>PSEditTextCell</string>
+			<key>default</key>			<string></string>
+			<key>defaults</key>			<string>com.sunnybat.notiaction</string>
+			<key>key</key>				<string>notiString2</string>
+			<key>label</key>			<string>(2) Check for</string>
+		</dict>
+		<dict>
+			<key>cell</key>				<string>PSEditTextCell</string>
+			<key>default</key>			<string></string>
+			<key>defaults</key>			<string>com.sunnybat.notiaction</string>
+			<key>key</key>				<string>notiString3</string>
+			<key>label</key>			<string>(3) Check for</string>
+		</dict>
+		<dict>
+			<key>cell</key>				<string>PSEditTextCell</string>
+			<key>default</key>			<string></string>
+			<key>defaults</key>			<string>com.sunnybat.notiaction</string>
+			<key>key</key>				<string>notiString4</string>
+			<key>label</key>			<string>(4) Check for</string>
+		</dict>
+		<dict>
+			<key>cell</key>				<string>PSEditTextCell</string>
+			<key>default</key>			<string></string>
+			<key>defaults</key>			<string>com.sunnybat.notiaction</string>
+			<key>key</key>				<string>notiString5</string>
+			<key>label</key>			<string>(5) Check for</string>
+		</dict>
+		<dict>
+			<key>cell</key>				<string>PSEditTextCell</string>
+			<key>default</key>			<string></string>
+			<key>defaults</key>			<string>com.sunnybat.notiaction</string>
+			<key>key</key>				<string>notiString6</string>
+			<key>label</key>			<string>(6) Check for</string>
+		</dict>
+		<dict>
+			<key>cell</key>				<string>PSEditTextCell</string>
+			<key>default</key>			<string></string>
+			<key>defaults</key>			<string>com.sunnybat.notiaction</string>
+			<key>key</key>				<string>notiString7</string>
+			<key>label</key>			<string>(7) Check for</string>
+		</dict>
+		<dict>
+			<key>cell</key>				<string>PSEditTextCell</string>
+			<key>default</key>			<string></string>
+			<key>defaults</key>			<string>com.sunnybat.notiaction</string>
+			<key>key</key>				<string>notiString8</string>
+			<key>label</key>			<string>(8) Check for</string>
+		</dict>
+		<dict>
+			<key>cell</key>				<string>PSEditTextCell</string>
+			<key>default</key>			<string></string>
+			<key>defaults</key>			<string>com.sunnybat.notiaction</string>
+			<key>key</key>				<string>notiString9</string>
+			<key>label</key>			<string>(9) Check for</string>
+		</dict>
+		<dict>
+			<key>cell</key>				<string>PSEditTextCell</string>
+			<key>default</key>			<string></string>
+			<key>defaults</key>			<string>com.sunnybat.notiaction</string>
+			<key>key</key>				<string>notiString10</string>
+			<key>label</key>			<string>(10) Check for</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>				<string>PSGroupCell</string>
+			<key>label</key>			<string>Respring to Save Changes</string>
+		</dict>
+		<dict>
+			<key>cell</key>				<string>PSButtonCell</string>
+			<key>label</key>			<string>Respring</string>
+			<key>isDestructive</key>	<true/>
+			<key>defaults</key>			<string>com.sunnybat.notiaction</string>
+			<key>action</key>			<string>respring</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>				<string>PSGroupCell</string>
+			<key>label</key>			<string>Debug Options</string>
+			<key>footerText</key>		<string>Only enable if you know what you're doing</string>
+		</dict>
+		<dict>
+			<key>cell</key>				<string>PSSwitchCell</string>
+			<key>default</key>			<false/>
+			<key>defaults</key>			<string>com.sunnybat.notiaction</string>
+			<key>key</key>				<string>debugsyslog</string>
+			<key>label</key>			<string>Syslog Output</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>				<string>PSGroupCell</string>
+			<key>label</key>			<string>Made by /u/SunnyBat</string>
+		</dict>
+	</array>
+</dict>
+</plist>
